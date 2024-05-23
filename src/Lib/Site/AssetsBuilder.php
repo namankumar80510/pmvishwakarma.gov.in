@@ -19,6 +19,7 @@ class AssetsBuilder
             $content = $httpclient->request('GET', wpUrl($asset))
                 ->getBody()->getContents();
             $content = str_replace($wpUrl, $siteUrl, $content);
+            $content = str_replace(basename($wpUrl), basename($siteUrl), $content);
             FileSystem::write(
                 BUILD_DIR . $asset,
                 $content

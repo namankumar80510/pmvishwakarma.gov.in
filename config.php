@@ -13,8 +13,8 @@ return [
         'wp-content/themes/twentytwentyfour/assets/fonts/inter/Inter-VariableFont_slnt,wght.woff2',
         'wp-includes/js/wp-emoji-release.min.js',
         'sitemap_index.xml',
-        #'post-sitemap.xml',
+        'post-sitemap.xml',
         'page-sitemap.xml',
-        'default-sitemap.xsl'
+        'main-sitemap.xsl'
     ],
 ];
