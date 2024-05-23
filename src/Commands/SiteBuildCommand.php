@@ -32,10 +32,10 @@ class SiteBuildCommand extends Command
         $output->writeln("Building the site...");
 
         // posts
-        //(new PostsBuilder)->build();
+        (new PostsBuilder)->build();
 
         // assets
-        //(new AssetsBuilder)->build();
+        (new AssetsBuilder)->build();
         $output->writeln("Asset files copied!");
 
         $output->writeln("Site built!");
