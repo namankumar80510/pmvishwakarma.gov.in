@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /404.html
+
+Sitemap: https://pmvishwakarmagov.in.net/sitemap_index.xml
+Sitemap: https://pmvishwakarmagov.in.net/post-sitemap.xml
+Sitemap: https://pmvishwakarmagov.in.net/page-sitemap.xml
