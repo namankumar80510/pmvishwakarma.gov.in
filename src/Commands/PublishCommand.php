@@ -5,7 +5,6 @@ namespace App\Commands;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
-use Symfony\Component\Console\Question\ConfirmationQuestion;
 use Symfony\Component\Console\Style\SymfonyStyle;
 
 class PublishCommand extends Command
@@ -58,43 +57,3 @@ class PublishCommand extends Command
         return Command::SUCCESS;
     }
 }
-
-
-/* OLD CODE:
-<?php
-
-namespace App\Commands;
-
-use Symfony\Component\Console\Command\Command;
-use Symfony\Component\Console\Input\ArrayInput;
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Output\OutputInterface;
-
-class PublishCommand extends Command
-{
-    public function getName(): ?string
-    {
-        return "publish";
-    }
-
-    public function getDescription(): string
-    {
-        return "Build the site and Publish it on Github.";
-    }
-
-    public function execute(InputInterface $input, OutputInterface $output): int
-    {
-
-        $output->writeln("Building...");
-        echo shell_exec('sh app build');
-
-        $output->writeln("Publishing...");
-        echo shell_exec('git add .') . PHP_EOL;
-        echo shell_exec('git commit -m "new site built: '.uniqid().'"') . PHP_EOL;
-
-        // ask user if user wants to git push
-        
-
-        return Command::SUCCESS;
-    }
-}*/
