@@ -47,6 +47,10 @@ class AssetsBuilder
             BUILD_DIR . 'static'
         );
 
+        FileSystem::rename(
+            BUILD_DIR . 'static/404.html',
+            BUILD_DIR . '404.html'
+        );
         
         FileSystem::write(
             BUILD_DIR . 'robots.txt',
