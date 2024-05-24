@@ -1,8 +1,0 @@
-{
-    "main": "./app.php",
-    "output": "./app",
-    "blacklist": [
-        "./build",
-        "./dev-build"
-    ]
-}
