@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//pmv.test/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://pmv.test/pdf/</loc>
-		<lastmod>2024-05-25T07:49:38+00:00</lastmod>
+		<loc>https://pmv.test/pm-vishwakarma-kaushal-samman/</loc>
+		<lastmod>2024-05-25T14:22:19+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://pmv.test/pm-vishwakarma-kaushal-samman-yojana/</loc>
+		<lastmod>2024-05-25T14:17:16+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://pmv.test/pm-vishwakarma-shram-samman-yojana/</loc>
+		<lastmod>2024-05-25T14:04:13+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://pmv.test/pm-vishwakarma-certificate-download/</loc>
+		<lastmod>2024-05-25T13:18:34+00:00</lastmod>
+		<image:image>
+			<image:loc>https://pmv.test/wp-content/uploads/2024/05/application-status.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://pmv.test/wp-content/uploads/2024/05/applicant-login.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://pmv.test/wp-content/uploads/2024/05/login.webp</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://pmv.test/wp-content/uploads/2024/05/CERTIFICATE.webp</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://pmv.test/pm-vishwakarma-loan/</loc>
+		<lastmod>2024-05-25T08:44:33+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://pmv.test/pm-vishwakarma-loan-hindi/</loc>
+		<lastmod>2024-05-25T08:37:41+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://pmv.test/malayalam/</loc>
-		<lastmod>2024-05-24T19:05:51+00:00</lastmod>
+		<lastmod>2024-05-25T08:14:52+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://pmv.test/pdf/</loc>
+		<lastmod>2024-05-25T08:14:40+00:00</lastmod>
 	</url>
 	<url>
 		<loc>https://pmv.test/beneficiary-list/</loc>
-		<lastmod>2024-05-24T18:28:52+00:00</lastmod>
+		<lastmod>2024-05-25T08:14:18+00:00</lastmod>
 		<image:image>
 			<image:loc>https://pmv.test/wp-content/uploads/2024/05/eshram-data-page-1536x980-1.webp</image:loc>
 		</image:image>
@@ -20,7 +56,7 @@
 	</url>
 	<url>
 		<loc>https://pmv.test/pm-vishwakarma-yojana-eligibility-criteria/</loc>
-		<lastmod>2024-05-24T18:05:47+00:00</lastmod>
+		<lastmod>2024-05-25T08:14:10+00:00</lastmod>
 		<image:image>
 			<image:loc>https://pmv.test/wp-content/uploads/2024/05/pm-vishwakarma-highlights.webp</image:loc>
 		</image:image>
